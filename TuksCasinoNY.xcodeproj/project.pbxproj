@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1308858827B94A2900A40552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308858727B94A2900A40552 /* AppDelegate.swift */; };
+		1308858A27B94A2900A40552 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308858927B94A2900A40552 /* SceneDelegate.swift */; };
+		1308858C27B94A2900A40552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308858B27B94A2900A40552 /* ViewController.swift */; };
+		1308858F27B94A2900A40552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1308858D27B94A2900A40552 /* Main.storyboard */; };
+		1308859127B94A2A00A40552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1308859027B94A2A00A40552 /* Assets.xcassets */; };
+		1308859427B94A2A00A40552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1308859227B94A2A00A40552 /* LaunchScreen.storyboard */; };
+		1308859F27B94A2A00A40552 /* TuksCasinoNYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308859E27B94A2A00A40552 /* TuksCasinoNYTests.swift */; };
+		130885A927B94A2A00A40552 /* TuksCasinoNYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130885A827B94A2A00A40552 /* TuksCasinoNYUITests.swift */; };
+		130885AB27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130885AA27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1308859B27B94A2A00A40552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1308857C27B94A2900A40552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1308858327B94A2900A40552;
+			remoteInfo = TuksCasinoNY;
+		};
+		130885A527B94A2A00A40552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1308857C27B94A2900A40552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1308858327B94A2900A40552;
+			remoteInfo = TuksCasinoNY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1308858427B94A2900A40552 /* TuksCasinoNY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuksCasinoNY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1308858727B94A2900A40552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1308858927B94A2900A40552 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1308858B27B94A2900A40552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1308858E27B94A2900A40552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1308859027B94A2A00A40552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1308859327B94A2A00A40552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1308859527B94A2A00A40552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1308859A27B94A2A00A40552 /* TuksCasinoNYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuksCasinoNYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1308859E27B94A2A00A40552 /* TuksCasinoNYTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuksCasinoNYTests.swift; sourceTree = "<group>"; };
+		130885A427B94A2A00A40552 /* TuksCasinoNYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuksCasinoNYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		130885A827B94A2A00A40552 /* TuksCasinoNYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuksCasinoNYUITests.swift; sourceTree = "<group>"; };
+		130885AA27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuksCasinoNYUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1308858127B94A2900A40552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308859727B94A2A00A40552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130885A127B94A2A00A40552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1308857B27B94A2900A40552 = {
+			isa = PBXGroup;
+			children = (
+				1308858627B94A2900A40552 /* TuksCasinoNY */,
+				1308859D27B94A2A00A40552 /* TuksCasinoNYTests */,
+				130885A727B94A2A00A40552 /* TuksCasinoNYUITests */,
+				1308858527B94A2900A40552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1308858527B94A2900A40552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1308858427B94A2900A40552 /* TuksCasinoNY.app */,
+				1308859A27B94A2A00A40552 /* TuksCasinoNYTests.xctest */,
+				130885A427B94A2A00A40552 /* TuksCasinoNYUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1308858627B94A2900A40552 /* TuksCasinoNY */ = {
+			isa = PBXGroup;
+			children = (
+				1308858727B94A2900A40552 /* AppDelegate.swift */,
+				1308858927B94A2900A40552 /* SceneDelegate.swift */,
+				1308858B27B94A2900A40552 /* ViewController.swift */,
+				1308858D27B94A2900A40552 /* Main.storyboard */,
+				1308859027B94A2A00A40552 /* Assets.xcassets */,
+				1308859227B94A2A00A40552 /* LaunchScreen.storyboard */,
+				1308859527B94A2A00A40552 /* Info.plist */,
+			);
+			path = TuksCasinoNY;
+			sourceTree = "<group>";
+		};
+		1308859D27B94A2A00A40552 /* TuksCasinoNYTests */ = {
+			isa = PBXGroup;
+			children = (
+				1308859E27B94A2A00A40552 /* TuksCasinoNYTests.swift */,
+			);
+			path = TuksCasinoNYTests;
+			sourceTree = "<group>";
+		};
+		130885A727B94A2A00A40552 /* TuksCasinoNYUITests */ = {
+			isa = PBXGroup;
+			children = (
+				130885A827B94A2A00A40552 /* TuksCasinoNYUITests.swift */,
+				130885AA27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift */,
+			);
+			path = TuksCasinoNYUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1308858327B94A2900A40552 /* TuksCasinoNY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130885AE27B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNY" */;
+			buildPhases = (
+				1308858027B94A2900A40552 /* Sources */,
+				1308858127B94A2900A40552 /* Frameworks */,
+				1308858227B94A2900A40552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuksCasinoNY;
+			productName = TuksCasinoNY;
+			productReference = 1308858427B94A2900A40552 /* TuksCasinoNY.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1308859927B94A2A00A40552 /* TuksCasinoNYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130885B127B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNYTests" */;
+			buildPhases = (
+				1308859627B94A2A00A40552 /* Sources */,
+				1308859727B94A2A00A40552 /* Frameworks */,
+				1308859827B94A2A00A40552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1308859C27B94A2A00A40552 /* PBXTargetDependency */,
+			);
+			name = TuksCasinoNYTests;
+			productName = TuksCasinoNYTests;
+			productReference = 1308859A27B94A2A00A40552 /* TuksCasinoNYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		130885A327B94A2A00A40552 /* TuksCasinoNYUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130885B427B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNYUITests" */;
+			buildPhases = (
+				130885A027B94A2A00A40552 /* Sources */,
+				130885A127B94A2A00A40552 /* Frameworks */,
+				130885A227B94A2A00A40552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				130885A627B94A2A00A40552 /* PBXTargetDependency */,
+			);
+			name = TuksCasinoNYUITests;
+			productName = TuksCasinoNYUITests;
+			productReference = 130885A427B94A2A00A40552 /* TuksCasinoNYUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1308857C27B94A2900A40552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1308858327B94A2900A40552 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1308859927B94A2A00A40552 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1308858327B94A2900A40552;
+					};
+					130885A327B94A2A00A40552 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1308858327B94A2900A40552;
+					};
+				};
+			};
+			buildConfigurationList = 1308857F27B94A2900A40552 /* Build configuration list for PBXProject "TuksCasinoNY" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1308857B27B94A2900A40552;
+			productRefGroup = 1308858527B94A2900A40552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1308858327B94A2900A40552 /* TuksCasinoNY */,
+				1308859927B94A2A00A40552 /* TuksCasinoNYTests */,
+				130885A327B94A2A00A40552 /* TuksCasinoNYUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1308858227B94A2900A40552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308859427B94A2A00A40552 /* LaunchScreen.storyboard in Resources */,
+				1308859127B94A2A00A40552 /* Assets.xcassets in Resources */,
+				1308858F27B94A2900A40552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308859827B94A2A00A40552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130885A227B94A2A00A40552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1308858027B94A2900A40552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308858C27B94A2900A40552 /* ViewController.swift in Sources */,
+				1308858827B94A2900A40552 /* AppDelegate.swift in Sources */,
+				1308858A27B94A2900A40552 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1308859627B94A2A00A40552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1308859F27B94A2A00A40552 /* TuksCasinoNYTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130885A027B94A2A00A40552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130885A927B94A2A00A40552 /* TuksCasinoNYUITests.swift in Sources */,
+				130885AB27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1308859C27B94A2A00A40552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1308858327B94A2900A40552 /* TuksCasinoNY */;
+			targetProxy = 1308859B27B94A2A00A40552 /* PBXContainerItemProxy */;
+		};
+		130885A627B94A2A00A40552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1308858327B94A2900A40552 /* TuksCasinoNY */;
+			targetProxy = 130885A527B94A2A00A40552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1308858D27B94A2900A40552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1308858E27B94A2900A40552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1308859227B94A2A00A40552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1308859327B94A2A00A40552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		130885AC27B94A2A00A40552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		130885AD27B94A2A00A40552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		130885AF27B94A2A00A40552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuksCasinoNY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		130885B027B94A2A00A40552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TuksCasinoNY/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNY;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		130885B227B94A2A00A40552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuksCasinoNY.app/TuksCasinoNY";
+			};
+			name = Debug;
+		};
+		130885B327B94A2A00A40552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNYTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuksCasinoNY.app/TuksCasinoNY";
+			};
+			name = Release;
+		};
+		130885B527B94A2A00A40552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuksCasinoNY;
+			};
+			name = Debug;
+		};
+		130885B627B94A2A00A40552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56CU9AMJBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TuksCasinoNYUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuksCasinoNY;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1308857F27B94A2900A40552 /* Build configuration list for PBXProject "TuksCasinoNY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130885AC27B94A2A00A40552 /* Debug */,
+				130885AD27B94A2A00A40552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130885AE27B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130885AF27B94A2A00A40552 /* Debug */,
+				130885B027B94A2A00A40552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130885B127B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130885B227B94A2A00A40552 /* Debug */,
+				130885B327B94A2A00A40552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130885B427B94A2A00A40552 /* Build configuration list for PBXNativeTarget "TuksCasinoNYUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130885B527B94A2A00A40552 /* Debug */,
+				130885B627B94A2A00A40552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1308857C27B94A2900A40552 /* Project object */;
+}
