@@ -16,6 +16,16 @@
 		1308859F27B94A2A00A40552 /* TuksCasinoNYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1308859E27B94A2A00A40552 /* TuksCasinoNYTests.swift */; };
 		130885A927B94A2A00A40552 /* TuksCasinoNYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130885A827B94A2A00A40552 /* TuksCasinoNYUITests.swift */; };
 		130885AB27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130885AA27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift */; };
+		1333447E27BD2B3F00F81F6A /* CoinFlipBetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333447C27BD2B3F00F81F6A /* CoinFlipBetVC.swift */; };
+		1333447F27BD2B3F00F81F6A /* CoinFlipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333447D27BD2B3F00F81F6A /* CoinFlipVC.swift */; };
+		1333448127BD2B4500F81F6A /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333448027BD2B4500F81F6A /* Balance.swift */; };
+		1333448327BD357000F81F6A /* CrashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333448227BD357000F81F6A /* CrashVC.swift */; };
+		1333448727BE928A00F81F6A /* Upgrades.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333448627BE928A00F81F6A /* Upgrades.swift */; };
+		1333448927BEAEE800F81F6A /* UpgradeCFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333448827BEAEE800F81F6A /* UpgradeCFVC.swift */; };
+		1333448B27BEAEFE00F81F6A /* UpgradeCrashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333448A27BEAEFE00F81F6A /* UpgradeCrashVC.swift */; };
+		133AB12527BF1DE700DDC710 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133AB12427BF1DE700DDC710 /* StatsVC.swift */; };
+		133AB12727BF1DF600DDC710 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133AB12627BF1DF600DDC710 /* Stats.swift */; };
+		139E44CC27BFE75500F323AE /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139E44CA27BFE75500F323AE /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		130885A427B94A2A00A40552 /* TuksCasinoNYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuksCasinoNYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		130885A827B94A2A00A40552 /* TuksCasinoNYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuksCasinoNYUITests.swift; sourceTree = "<group>"; };
 		130885AA27B94A2A00A40552 /* TuksCasinoNYUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuksCasinoNYUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1333447C27BD2B3F00F81F6A /* CoinFlipBetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinFlipBetVC.swift; sourceTree = "<group>"; };
+		1333447D27BD2B3F00F81F6A /* CoinFlipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinFlipVC.swift; sourceTree = "<group>"; };
+		1333448027BD2B4500F81F6A /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		1333448227BD357000F81F6A /* CrashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashVC.swift; sourceTree = "<group>"; };
+		1333448627BE928A00F81F6A /* Upgrades.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upgrades.swift; sourceTree = "<group>"; };
+		1333448827BEAEE800F81F6A /* UpgradeCFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeCFVC.swift; sourceTree = "<group>"; };
+		1333448A27BEAEFE00F81F6A /* UpgradeCrashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeCrashVC.swift; sourceTree = "<group>"; };
+		133AB12427BF1DE700DDC710 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
+		133AB12627BF1DF600DDC710 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		139E44CB27BFE75500F323AE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +122,20 @@
 				1308858727B94A2900A40552 /* AppDelegate.swift */,
 				1308858927B94A2900A40552 /* SceneDelegate.swift */,
 				1308858B27B94A2900A40552 /* ViewController.swift */,
+				1333448227BD357000F81F6A /* CrashVC.swift */,
+				1333447D27BD2B3F00F81F6A /* CoinFlipVC.swift */,
+				1333447C27BD2B3F00F81F6A /* CoinFlipBetVC.swift */,
+				1333448827BEAEE800F81F6A /* UpgradeCFVC.swift */,
+				1333448A27BEAEFE00F81F6A /* UpgradeCrashVC.swift */,
+				133AB12427BF1DE700DDC710 /* StatsVC.swift */,
 				1308858D27B94A2900A40552 /* Main.storyboard */,
+				133AB12627BF1DF600DDC710 /* Stats.swift */,
+				1333448027BD2B4500F81F6A /* Balance.swift */,
+				1333448627BE928A00F81F6A /* Upgrades.swift */,
 				1308859027B94A2A00A40552 /* Assets.xcassets */,
 				1308859227B94A2A00A40552 /* LaunchScreen.storyboard */,
 				1308859527B94A2A00A40552 /* Info.plist */,
+				139E44CA27BFE75500F323AE /* CoreData.xcdatamodeld */,
 			);
 			path = TuksCasinoNY;
 			sourceTree = "<group>";
@@ -259,8 +289,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1308858C27B94A2900A40552 /* ViewController.swift in Sources */,
+				133AB12727BF1DF600DDC710 /* Stats.swift in Sources */,
+				1333447F27BD2B3F00F81F6A /* CoinFlipVC.swift in Sources */,
+				139E44CC27BFE75500F323AE /* CoreData.xcdatamodeld in Sources */,
 				1308858827B94A2900A40552 /* AppDelegate.swift in Sources */,
+				1333447E27BD2B3F00F81F6A /* CoinFlipBetVC.swift in Sources */,
+				1333448727BE928A00F81F6A /* Upgrades.swift in Sources */,
+				1333448B27BEAEFE00F81F6A /* UpgradeCrashVC.swift in Sources */,
+				133AB12527BF1DE700DDC710 /* StatsVC.swift in Sources */,
+				1333448927BEAEE800F81F6A /* UpgradeCFVC.swift in Sources */,
+				1333448127BD2B4500F81F6A /* Balance.swift in Sources */,
 				1308858A27B94A2900A40552 /* SceneDelegate.swift in Sources */,
+				1333448327BD357000F81F6A /* CrashVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +644,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		139E44CA27BFE75500F323AE /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				139E44CB27BFE75500F323AE /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 139E44CB27BFE75500F323AE /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1308857C27B94A2900A40552 /* Project object */;
 }
